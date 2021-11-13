@@ -26,9 +26,7 @@
 export default {
   name: "IpInfo",
   props: ["IpInfo"],
-  created() {
-    console.log(this.IpInfo);
-  },
+  created() {},
   data() {
     return {};
   },

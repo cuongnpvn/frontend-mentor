@@ -127,7 +127,7 @@ export default {
           this.countries.push(this.countryInfo);
         });
       } catch (err) {
-        console.log(err);
+        alert(err);
       }
     };
     fetchData();
@@ -137,7 +137,6 @@ export default {
       this.filterOptions = !this.filterOptions;
     },
     toggleDarkMode() {
-      console.log(this.darkMode);
       this.darkMode = !this.darkMode;
     },
 
@@ -192,7 +191,6 @@ export default {
             country.region === this.regionCountry
         );
       } else if (this.searchCountry === "" && this.regionCountry !== "") {
-        console.log(this.regionCountry);
         return this.countries.filter(
           (country) => country.region == this.regionCountry
         );
