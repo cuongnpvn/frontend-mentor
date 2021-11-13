@@ -11,7 +11,6 @@
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
-    "express": "^4.17.1",
     "leaflet": "^1.7.1",
     "uid": "^2.0.0",
     "vue": "^3.0.0",
