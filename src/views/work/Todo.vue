@@ -127,7 +127,6 @@ export default {
           todo.completed = !todo.completed;
         }
       });
-      console.log(this.todoList);
     },
     addTodo() {
       this.todoList.unshift({
@@ -136,7 +135,6 @@ export default {
         completed: false,
       });
       this.newTodo = "";
-      console.log(this.todoList);
     },
     removeTodo(id) {
       this.todoList = this.todoList.filter((todo) => todo.id !== id);
@@ -177,7 +175,6 @@ export default {
     },
     toggleTheme() {
       this.currentTheme = !this.currentTheme;
-      console.log(this.currentTheme);
     },
   },
   computed: {
