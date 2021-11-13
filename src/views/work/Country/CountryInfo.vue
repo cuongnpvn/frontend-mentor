@@ -89,7 +89,6 @@ export default {
         `https://restcountries.com/v2/alpha/${this.countryCode}`
       );
       const info = res.data;
-      console.log(info);
       this.countryInfo = {
         name: info.name,
         nativeName: info.nativeName,
@@ -108,7 +107,6 @@ export default {
   },
   methods: {
     toggleDarkMode() {
-      console.log(this.darkMode);
       this.darkMode = !this.darkMode;
     },
     handleBack() {
