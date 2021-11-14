@@ -90,6 +90,13 @@ export default {
           description: "I built a tip calculator with VueJS, HTML&CSS",
           cover: require("@/assets/Work/tip-calculator-cover.jpg"),
         },
+        {
+          code: "SpaceTourism",
+          name: "Space Tourism.",
+          description:
+            "A simple Space Tourism website, the project based on FrontEnd Mentor website.",
+          cover: require("@/assets/Work/space-tourism-cover.jpg"),
+        },
       ],
       currentShow: 3,
     };
